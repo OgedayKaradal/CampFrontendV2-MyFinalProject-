@@ -1,3 +1,4 @@
+import { Chain } from '@angular/compiler';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'northwind_v2';
+  title:string = 'northwind_v2';
+
 }
